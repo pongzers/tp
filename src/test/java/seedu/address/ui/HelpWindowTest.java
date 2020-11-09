@@ -73,6 +73,5 @@ class HelpWindowTest {
             + exitCommandFormat;
         assertEquals(expectedCommands, labelHelpCommands.getText());
         assertEquals("OR, ", labelHelpMessage.getText());
-
     }
 }
